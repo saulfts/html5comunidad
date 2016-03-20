@@ -1,0 +1,48 @@
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+header{
+      display: block;
+    background-color: rgba(0, 188, 212, 0.28);
+    width: 100%;
+    text-align: center;
+    padding: 1px 25px;
+    text-shadow: #B50101 8px 5px 36px;
+    box-shadow: rgba(0,0,0,0.6) 6px 1px 33px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+  display: inline;
+    padding: 5px 59px;
+    background: #B8ECF3;
+    border-radius: 20px;
+}
+
+section{
+    width: 60%;
+    background: #ccc;
+    float:left;
+    padding-left: 10px;
+}
+aside{
+    width: 35%;
+
+    float: right;
+    background: rgba(0,255,255,0.29);
+    padding: 0 10px;
+}
+
+footer{
+    position:relative;
+    clear: both;
+    background-color: rgba(39,115,77,0.21);
+    height: 50px
+
+}
